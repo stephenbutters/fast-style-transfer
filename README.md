@@ -4,6 +4,7 @@
 ```bash
 mkdir output
 conda env create -f env.yml
+conda activate fast-style-transfer
 python evaluate.py --checkpoint checkpoints/scream.ckpt --in-path examples/content/stata.jpg --out-path output/
 ```
 
